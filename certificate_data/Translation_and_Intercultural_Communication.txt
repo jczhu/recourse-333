@@ -1,0 +1,28 @@
+TRA:200
+TRA:400
+SPA:308
+FRE:407
+ARA:308
+CWR:306
+TRA:307
+TRA:402
+TRA:219
+TRA:303
+TRA:380
+TRA:301
+TRA:351
+TRA:208
+TRA:210
+TRA:301
+TRA:303
+TRA:351
+TRA:357
+TRA:380
+TRA:402
+TRA:407
+SPA:210
+CWR:307
+-
+Upper-level courses focusing on translation into and/or from a foreign language (examples include: SPA 308, FRE 407, ARA 308, and CWR 306)
+Courses that contribute to an understanding of some aspect of translation (may be found in disciplines such as Linguistics, Psychology, Philosophy, Anthropology, History, Comparative Literature, etc.)
+Any course listed or cross-listed by the Program in Translation and Intercultural Communication

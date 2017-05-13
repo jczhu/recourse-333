@@ -1,0 +1,22 @@
+DAN:321
+ENG:376
+GSS:365
+MUS:214
+MUS:220
+MUS:223
+MUS:332
+MUS:335
+MUS:337
+MUS:513
+THR:310
+THR:322
+THR:334
+THR:341
+THR:366
+THR:400
+-
+The above are for the "music theater" subsection of requirements
+Some Princeton Atelier courses
+Theater course (THR)
+Music course (MUS)
+Dance course (DAN)

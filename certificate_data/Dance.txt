@@ -1,0 +1,10 @@
+DAN:319A
+DAN:319B
+DAN:320A
+DAN:320B
+DAN:419A
+DAN:419B
+DANL420A
+DAN:420B
+- 
+TODO Add all DAN couses above introductory level when new offerings come out. 

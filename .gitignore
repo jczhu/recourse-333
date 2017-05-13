@@ -1,0 +1,11 @@
+# ignore node dependencies, install (locally)
+node_modules/
+
+# ignore staticfiles, generate on own with python manage.py collectstatic
+staticfiles/
+
+# ignore compiled files
+*.pyc
+
+# ignore env file for Heroku
+.env

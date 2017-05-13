@@ -1,0 +1,9 @@
+LIN:201
+LIN:250
+LIN:260
+LIN:302
+LIN:310
+LIN:360
+PSY:309
+-
+Any LIN course 200-level above

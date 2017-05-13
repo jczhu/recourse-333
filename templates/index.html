@@ -1,0 +1,85 @@
+{% load render_bundle from webpack_loader %}
+<!DOCTYPE html>
+<html>
+	<!-- link below needed for React-Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+	<style>
+	* { /* Used to override the 8px margin on the body*/
+		margin: 0;
+		padding: 0;
+	}
+	/* Some HTML/SVG attributes are not supported in ReactJS,
+		 so they are styled here instead.*/
+	.container-fluid {
+		/* Used to override the default padding in Grid*/
+		padding-left: 0rem !important;
+		padding-right: 0rem !important;
+	}
+	.toolBar {
+		z-index: 2;
+	}
+	html, body {
+	  height: 100%;
+	}
+	.leftpanel {
+		overflow-y: scroll;
+		height: 104vh;
+		zoom: 0.88;
+	}
+	.inputs {
+		/* tuning for firefox, still has room for improvement*/
+		-moz-transform: scale(0.90);
+		-moz-transform-origin: 0 0;
+	}
+	.rightpanel {
+		overflow-y: scroll;
+		width: 103%;
+		height: 80vh; /* reduced from 100vh to account for rendering of last card.*/
+	}
+	.toolBar{
+		background: -webkit-linear-gradient(left, #2d4053 , #0ac2c2) !important;
+	}
+	.drawerButton{
+		min-width: 40px !important;
+	}
+	.favorites{
+		overflow-y: scroll;
+		overflow-x: hidden;
+		height: 90%;
+		width: 95%;
+	}
+	.welcome{
+		text-align: center;
+	}
+	.noResults{
+		text-align: center;
+	}
+	.snackbar{
+		text-align: center;
+	}
+	.bubbleTea{
+		text-align: center;
+	}
+	.meetingsList{
+		min-height: 50px;
+		max-height: 150px;
+		overflow-y: scroll;
+	}
+	.section{
+		display: inline-block;
+		width: 115px;
+	}
+	.time{
+		display: inline-block;
+		width: 190px;
+	}
+	</style>
+    <head>
+        <title>ReCourse — Course Search</title>
+    </head>
+    <body>
+        <div id="container"></div>
+				<script> var netid = "{{ user.get_username }}"; </script>
+        {% render_bundle 'main' %}
+    </body>
+</html>

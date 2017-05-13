@@ -1,0 +1,37 @@
+VIS:392
+VIS:416
+CWR:348
+CWR:405
+CWR:448
+DAN:223
+LCA:213
+THR:400
+URB:202
+VIS:201
+VIS:203
+VIS:211
+VIS:213
+VIS:214
+VIS:215
+VIS:216
+VIS:220
+VIS:221
+VIS:263
+VIS:264
+VIS:307
+VIS:308
+VIS:315
+VIS:322
+VIS:324
+VIS:392
+VIS:401
+VIS:416
+VIS:418
+ART:213
+ART:348
+GER:475
+AAS:245
+-
+TODO Add all 300 / 400 level VIS courses.
+Three visual arts studio courses, in at least two different media, and at least one 300- or 400-level course.
+TODO One art and archaeology course in the modern period (19th century to the present).

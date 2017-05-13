@@ -1,0 +1,24 @@
+ARA:101
+ARA:105
+ARA:301
+ARA:303
+ARA:307
+ARA:403
+HEB:101
+HEB:105
+HEB:305
+PER:101
+PER:105
+PER:302
+TUR:101
+TUR:105
+HIS:419
+NES:201
+NES:251
+NES:367
+NES:500
+NES:563
+-
+Two years at least of Arabic, Hebrew, Persian, or Turkish
+NES history courses
+ANT, NES, POL, REL, SOC, WWS courses about Near East

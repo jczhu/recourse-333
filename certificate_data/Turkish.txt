@@ -1,0 +1,5 @@
+NES:504
+NES:541
+TUR:305
+-
+Study of one of the languages taught beyond the level required for the completion of the University language requirements 

@@ -1,0 +1,1 @@
+web: gunicorn recourse.wsgi --log-file -

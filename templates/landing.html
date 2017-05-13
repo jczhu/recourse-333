@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>ReCourse — Course Search</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Baseline theme -->
+
+    <!-- Theme CSS --> <!-- had issues putting it into another file, so here it is for now. -->
+    <!-- header image is: http://i.imgur.com/ibg3XuO.jpg -->
+    <style>.navbar-default,a{-webkit-transition:all .35s;-moz-transition:all .35s}header,header .header-content{position:relative;width:100%;text-align:center}body,html{height:100%;width:100%}body{font-family:Merriweather,'Helvetica Neue',Arial,sans-serif;webkit-tap-highlight-color:#222}.btn,.navbar-default,.navbar-default .navbar-header .navbar-brand,h1,h2,h3,h4,h5,h6{font-family:'Open Sans','Helvetica Neue',Arial,sans-serif}hr{border-color:#0ac2c2;border-width:3px;max-width:50px}hr.light{border-color:#fff}a{transition:all .35s;color:#0ac2c2}a:focus,a:hover{color:#eb3812}p{font-size:16px;line-height:1.5;margin-bottom:20px}.bg-primary{background-color:#0ac2c2}.bg-dark{background-color:#222;color:#fff}.text-faded{color:rgb(255,255,255)}section{padding:100px 0}aside{padding:50px 0}.no-padding{padding:0}.navbar-default{background-color:#fff;border-color:rgba(34,34,34,.05);transition:all .35s}.btn-default,.portfolio-box .portfolio-box-caption{-webkit-transition:all .35s;-moz-transition:all .35s}.navbar-default .navbar-header .navbar-brand{color:#0ac2c2;font-weight:700;text-transform:uppercase}.navbar-default .navbar-header .navbar-brand:focus,.navbar-default .navbar-header .navbar-brand:hover{color:#eb3812}.navbar-default .navbar-header .navbar-toggle{font-weight:700;font-size:12px;color:#222;text-transform:uppercase}.navbar-default .nav>li>a,.navbar-default .nav>li>a:focus{text-transform:uppercase;font-weight:700;font-size:13px;color:#222}.navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover{color:#0ac2c2}.navbar-default .nav>li.active>a,.navbar-default .nav>li.active>a:focus{color:#0ac2c2!important;background-color:transparent}.navbar-default .nav>li.active>a:focus:hover,.navbar-default .nav>li.active>a:hover{background-color:transparent}@media (min-width:768px){.navbar-default{background-color:transparent;border-color:rgba(255,255,255,.3)}.navbar-default .navbar-header .navbar-brand{color:rgb(255,255,255)}.navbar-default .navbar-header .navbar-brand:focus,.navbar-default .navbar-header .navbar-brand:hover{color:#fff}.navbar-default .nav>li>a,.navbar-default .nav>li>a:focus{color:rgb(255,255,255)}.navbar-default .nav>li>a:focus:hover,.navbar-default .nav>li>a:hover{color:#fff}.navbar-default.affix{background-color:#fff;border-color:rgba(34,34,34,.05)}.navbar-default.affix .navbar-header .navbar-brand{color:#0ac2c2;font-size:20px}.navbar-default.affix .navbar-header .navbar-brand:focus,.navbar-default.affix .navbar-header .navbar-brand:hover{color:#eb3812}.navbar-default.affix .nav>li>a,.navbar-default.affix .nav>li>a:focus{color:#222}.navbar-default.affix .nav>li>a:focus:hover,.navbar-default.affix .nav>li>a:hover{color:#0ac2c2}}header{min-height:auto;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;background-position:center;background-image:url("http://i.imgur.com/ibg3XuO.jpg");color:#fff}header .header-content{padding:100px 15px}header .header-content .header-content-inner h1{font-weight:700;text-transform:uppercase;margin-top:0;margin-bottom:0;font-size:30px}header .header-content .header-content-inner hr{margin:30px auto}header .header-content .header-content-inner p{font-weight:300;color:rgba(255,255,255,.7);font-size:17px;margin-bottom:50px}@media (min-width:768px){header{min-height:100%}header .header-content{position:absolute;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);padding:0 50px}header .header-content .header-content-inner{max-width:1000px;margin-left:auto;margin-right:auto}header .header-content .header-content-inner h1{font-size:48px}header .header-content .header-content-inner p{font-size:18px;max-width:80%;margin-left:auto;margin-right:auto}}.section-heading{margin-top:0}.service-box{max-width:400px;margin:50px auto 0}@media (min-width:992px){.service-box{margin:20px auto 0}}.service-box p{margin-bottom:0} .project-name{font-size:22px}}.call-to-action h2{margin:0 auto 20px}.text-primary{color:#0ac2c2}.no-gutter>[class*=col-]{padding-right:0;padding-left:0}.btn-default{color:#222;background-color:#fff;border-color:#fff;transition:all .35s}.btn-default.active,.btn-default.focus,.btn-default:active,.btn-default:focus,.btn-default:hover,.open>.dropdown-toggle.btn-default{color:#222;background-color:#f2f2f2;border-color:#ededed}.btn-default.disabled,.btn-default.disabled.active,.btn-default.disabled.focus,.btn-default.disabled:active,.btn-default.disabled:focus,.btn-default.disabled:hover,.btn-default[disabled],.btn-default[disabled].active,.btn-default[disabled].focus,.btn-default[disabled]:active,.btn-default[disabled]:focus,.btn-default[disabled]:hover,fieldset[disabled] .btn-default,fieldset[disabled] .btn-default.active,fieldset[disabled] .btn-default.focus,fieldset[disabled] .btn-default:active,fieldset[disabled] .btn-default:focus,fieldset[disabled] .btn-default:hover{background-color:#fff;border-color:#fff}.btn-default .badge{color:#fff;background-color:#222}.btn-primary{color:#fff;background-color:#0ac2c2;border-color:#0ac2c2;-webkit-transition:all .35s;-moz-transition:all .35s;transition:all .35s}.btn-primary.active,.btn-primary.focus,.btn-primary:active,.btn-primary:focus,.btn-primary:hover,.open>.dropdown-toggle.btn-primary{color:#fff;background-color:#2eb82e;border-color:#ed431f}.btn-primary.disabled,.btn-primary.disabled.active,.btn-primary.disabled.focus,.btn-primary.disabled:active,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled],.btn-primary[disabled].active,.btn-primary[disabled].focus,.btn-primary[disabled]:active,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary,fieldset[disabled] .btn-primary.active,fieldset[disabled] .btn-primary.focus,fieldset[disabled] .btn-primary:active,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover{background-color:#0ac2c2;border-color:#0ac2c2}.btn-primary .badge{color:#0ac2c2;background-color:#fff}.btn{border:none;border-radius:300px;font-weight:700;text-transform:uppercase}.btn-xl{padding:15px 30px}::-moz-selection{color:#fff;text-shadow:none;background:#222}::selection{color:#fff;text-shadow:none;background:#222}img::selection{color:#fff;background:0 0}img::-moz-selection{color:#fff;background:0 0}
+    </style>
+
+
+    <!-- Font Stuffs -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="page-top">
+
+      <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                  </button>
+                  <a class="navbar-brand page-scroll" href="#page-top" style="font-weight: 500; text-transform: none;">
+                    ReCourse — Princeton University
+                  </a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li>
+                          <a class="page-scroll" href="#about" style="padding-right: 50px">About</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="/main/" style="padding-right: 50px">Login</a>
+                      </li>
+                  </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+      </nav>
+
+      <header>
+          <div class="header-content">
+              <div class="header-content-inner">
+                  <h1 id="homeHeading" style="font-weight: 300; text-transform: none;">ReCourse - Course Search</h1>
+                  <hr>
+                  <a href="/main/" class="btn btn-primary btn-xl page-scroll">Login to search courses</a>
+              </div>
+          </div>
+      </header>
+
+      <section class="bg-primary" id="about" style="padding-bottom: 0px">
+          <div class="container" style="text-align: center;">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2 text-center">
+                      <h2 class="section-heading">Find the courses that matter to you.</h2>
+                      <hr class="light">
+                      <p class="text-faded" style="font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; font-size: 21px">
+                        Our goal is to provide a wider array of search options.
+                        <br>
+                        <br>
+                        <u>Search By:</u>
+                        <br>
+                        avoids time conflicts with other classes <span class="label label-success">New!</span>
+                        <br>
+                        fulfills certificate requirements <span class="label label-success">New!</span>
+                        <br>
+                        PDF-only / PDF-able / auditable courses
+                        <br>
+                        minimum course evaluation rating
+                        <br>
+                        maximum pages of weekly reading
+                        <br>
+                        grading categories (e.g. paper, midterm, final etc.)
+                        <br>
+                        include / exclude multiple distribution areas
+                        <br>
+                        hide grad courses / only show grad courses
+                        <br>
+                        open to freshmen
+                        <br>
+                        classes with trips
+                      </p>
+                      <br>
+                      <br>
+                  </div>
+              </div>
+              <div>
+                <img style="width: 80vw;" src="http://i.imgur.com/20h2uds.png"/>
+              </div>
+          </div>
+      </section>
+
+      <section id="services">
+          <div class="container text-center">
+              <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+              <h3>Made with Love (and Bubble Tea)</h3>
+              <p class="text-muted">Jessica Zheng '19, Bill Zhang '19, Natalie Diaz '19, Julie Zhu '19, Elizabeth Tian '19.
+                <br>A COS 333 project advised by Christopher Moretti.
+              </p>
+              <br>
+              <p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdjJSAwBBD1wBx4IT9qUkuhRfC6lWRKAKBRSxM4K7QfCNlemw/viewform" target="_blank">Got feedback?</a>
+                <br>
+              </p>
+          </div>
+      </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <!-- <script src="./vendor/scrollreveal/scrollreveal.min.js"></script>  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!-- custom script, enables smooth scrolling animation. -->
+    <script>
+    !function(a){"use strict";a(document).on("click","a.page-scroll",function(e){var l=a(this);a("html, body").stop().animate({scrollTop:a(l.attr("href")).offset().top-50},1250,"easeInOutExpo"),e.preventDefault()}),a("body").scrollspy({target:".navbar-fixed-top",offset:51}),a(".navbar-collapse ul li a").click(function(){a(".navbar-toggle:visible").click()}),a("#mainNav").affix({offset:{top:100}}),window.sr=ScrollReveal(),sr.reveal(".sr-icons",{duration:600,scale:.3,distance:"0px"},200),sr.reveal(".sr-button",{duration:1e3,delay:200}),sr.reveal(".sr-contact",{duration:600,scale:.3,distance:"0px"},300),a(".popup-gallery").magnificPopup({delegate:"a",type:"image",tLoading:"Loading image #%curr%...",mainClass:"mfp-img-mobile",gallery:{enabled:!0,navigateByImgClick:!0,preload:[0,1]},image:{tError:'<a href="%url%">The image #%curr%</a> could not be loaded.'}})}(jQuery);
+    </script>
+  </body>
+</html>

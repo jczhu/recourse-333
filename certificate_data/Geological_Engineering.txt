@@ -1,0 +1,12 @@
+GEO:300
+GEO:361
+GEO:363
+GEO:366
+GEO:370
+GEO:417
+GEO:418
+GEO:424
+GEO:441
+GEO:470
+-
+Four program-approved courses at or above the 300 level that constitute a coherent sequence (at least two of these courses must be from a department different from that in which the student is concentrating).

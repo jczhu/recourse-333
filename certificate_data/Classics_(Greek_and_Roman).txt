@@ -1,0 +1,12 @@
+CLG:213
+CLG:240
+CLG:307
+CLG:308
+LAT:210
+LAT:232
+LAT:330
+LAT:333
+LAT:335
+LAT:339
+-
+CLA course focusing on the culture of their certificate program

@@ -1,0 +1,16 @@
+HIS:360
+HIS:559
+SLA:509
+SLA:510
+NES:563
+RUS:207
+TUR:105
+-
+200 and 300 level for:
+History: One upper-level course on the history of the Russian empire, the Soviet Union, or Eurasia.
+Literature: One upper-level course in the literatures of the Russia and/or Eurasia.
+Social Sciences: One course in the anthropology, sociology, politics and/or economics of Russia and/or Eurasia.
+Plus 1: One additional course from the three main subject areas or from a list of preapproved specialty courses.
+ALSO
+Language Req:
+Applicable languages include Russian or Turkish. Students whose primary language of study is Russian must successfully complete one Russian language course beyond 207 or otherwise achieve this level of competence. Students in the program whose focus is Turkish must complete the equivalent of the second year in that language

@@ -1,0 +1,17 @@
+ARA:302
+ARA:308
+ARA:313
+ARA:314
+ARA:404
+ARA:301
+ARA:303
+ARA:307
+ARA:403
+ARA:301
+ARA:302
+ARA:401
+NES:529
+NES:531
+NES:532
+-
+Study of one of the languages beyond the level required for completion of the University language requirements

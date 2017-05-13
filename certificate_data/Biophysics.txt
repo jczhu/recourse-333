@@ -1,0 +1,17 @@
+EEB:514
+CHM:542
+CHM:543
+CHM:306
+ELE:352
+PHY:412
+PHY:562
+MOL:433
+MOL:459
+MOL:460
+MOL:455
+-
+https://ua.princeton.edu/academic-units/program-biophysics
+TODO 400 level MOL courses
+IGNORE: "Certain 500-level CHM courses, with the instructor's permission"
+IGNORE: "Certain 500-level courses, with the instructor's permission"
+

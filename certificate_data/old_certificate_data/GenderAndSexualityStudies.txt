@@ -1,0 +1,24 @@
+GSS:201
+AAS:404
+COM:307
+COM:376
+EAS:364
+ENG:396
+FRE:402
+GHP:300
+GSS:305
+GSS:348
+GSS:369
+GSS:373
+GSS:400
+GSS:420
+HIS:459
+LAS:396
+NES:374
+NES:525
+POL:422
+SAS:335
+SPA:548
+VIS:335
+-
+Students are encouraged to take at least one course from at least three of the following thematic clusters: transnational/global perspectives; gender, race, and ethnicity; bodies, sexualities; culture and representation; politics and social change; historical perspectives 

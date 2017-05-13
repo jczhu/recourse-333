@@ -1,0 +1,21 @@
+LCA:101
+CWR:202
+CWR:204
+CWR:211
+VIS:214
+VIS:215
+CWR:216
+JRN:240
+CWR:302
+CWR:304
+CWR:306
+ANT:313
+CWR:315
+VIS:335
+CWR:345
+CWR:349
+CWR:403
+CWR:405
+-
+TODO All CWR courses for F2017
+TODO Update: http://arts.princeton.edu/academics/creative-writing/creative-writing-courses/

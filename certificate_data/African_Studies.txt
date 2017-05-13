@@ -1,0 +1,19 @@
+AAS:342
+AFS:303
+ANT:206A
+ANT:206B
+ART:329
+ENG:417
+FRE:245
+HIS:473
+MUS:246
+NES:394
+POL:433
+SOC:354
+ENV:407
+FRE:403
+HIS:314
+LIN:260
+-
+http://piirs.princeton.edu/afs/2016fallcourses
+will have to re-edit when 2017 courses are released

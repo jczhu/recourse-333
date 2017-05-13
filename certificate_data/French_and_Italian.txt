@@ -1,0 +1,23 @@
+FRE:211
+FRE:215
+FRE:221
+FRE:222
+FRE:224
+FRE:307
+FRE:311
+FRE:332
+FRE:359
+FRE:379
+FRE:389
+FRE:398
+FRE:401
+FRE:403
+FRE:404
+FRE:513
+ITA:208
+ITA:209
+ITA:220
+ITA:311
+ITA:319
+-
+A minimum of four departmental courses in the relevant language, linguistics, literature, or culture, excluding courses that do not have a language prerequisite
